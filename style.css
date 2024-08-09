@@ -1,0 +1,313 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.navbar {
+    background: transparent;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+.navbar img {
+    border-radius: 100%;
+    margin-left: 62px;
+    height: 55px;
+    width: 55px;
+}
+
+.navbar h1 {
+    font-size: 32px;
+    color: #3D311E;
+    margin-left: 10px;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.navbar img h1 ul li {
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.cs {
+    margin-right: 62px;
+}
+
+.hero {
+    background-image: url('image/download.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    padding: 100px 20px;
+    height: 760px;
+    display: left;
+    align-items: center;
+    justify-content: left;
+}
+
+.hero h2 {
+    font-size: 68px;
+    margin-top: 56px;
+   
+    color: #3D311E;
+    line-height: 90px;
+    font-weight: bold;
+    
+    
+}
+.hero .btn{
+    background-color: #FF914D;
+}
+
+.content {
+    padding: 40px 20px;
+    margin-top: -25px;
+}
+
+.wrapcontent {
+    text-align: center;
+    align-content: center;
+}
+
+.content img {
+    width: 301px;
+    height: 301px;
+    margin-top: 19px;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 81px;
+    font-weight: bold;
+}
+
+.content p {
+    max-width: 1134px;
+    max-height: 300px;
+    margin: 0px auto;
+    margin-top: 19px;
+    text-align: center;
+    color: #555;
+    font-size: 20px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product {
+    background-color: #3D311E;
+    border-radius: 50px;
+    margin-top: 63px;
+    width: 1386px;
+    height: 519px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.products h1 {
+    font-weight: bold;
+    margin-top: 81px;
+}
+
+.product img {
+    border-radius: 50%;
+    width: 417px;
+    height: 417px;
+    object-fit: cover;
+    margin-top: 51px;
+    margin-bottom: 51px;
+}
+
+.product .left h1 {
+    color: #FF914D;
+    margin-top: 51px;
+    margin-left: 55px;
+    align-self: left;
+    font-size: 40px;
+    width: 371px;
+    height: 60px;
+    font-weight: bold;
+}
+
+.product .left p {
+    color: #555;
+    margin-top: 5px;
+    margin-left: 55px;
+    font-size: 24px;
+    width: 835px;
+    height: 288px;
+    color: white;
+}
+
+.product .left button {
+    background-color:#FF914D;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 593px;
+    width: 200px;
+    height: 51px;
+    align-self: center;
+    font-size: 29px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #3D311E;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapfooter{
+    text-align: center;
+    margin-left: 115px;
+    margin-right: 115px;
+    display: flex;
+    
+    align-items: center;
+}
+ footer .alamat{
+    width: 414px;
+    height: 126px;
+    background-color: rgba(0, 0, 0, 0);
+    
+    
+}
+.alamat .logo{
+    display: flex;
+    width: 318px;
+    height: 55px;
+}
+.alamat h1{
+    width: 246px;
+    height: 47px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 13px;
+    margin-top:10px;
+}
+.alamat p{
+    text-align: left;
+    margin-left: 73px;
+    font-size: 16px;
+    width: 341px;
+    height: 71px;
+}
+.contact{
+
+    width: 286px;
+    height: 98px;
+    margin-left: 173px;
+    margin-right: 173px;
+
+    
+    
+}
+.contact h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #FF914D;
+}
+.sosmed{
+    
+    width: 286px;
+    height: 98px;
+    
+}
+
+.sosmed h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #FF914D;
+    width: 171px;
+    height: 23px;
+}
+.instagram{
+    display: flex;
+    
+}
+.instagram p{
+    margin-left: 10px;
+    width: 155px;
+    height: 22px;
+    text-align: left;
+}
+.contact .phone, .mail{
+    display: flex;
+    align-items: center;
+}
+.phone{
+    width: 177px;
+    height: 27px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.phone p{
+    width: 155px;
+    height: 22px;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+.phone i, .mail i{
+    width: 22px;
+    height: 27px;
+    
+}
+.mail p{
+    width: 256px;
+    height: 22px;
+    margin-left: 10px;
+}
+.color {
+    color: #FF914D;
+}
+.endfooter{
+    width: 100%;
+    height: 40px;
+    background-color: #FF914D;
+}
